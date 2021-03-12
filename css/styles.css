@@ -132,17 +132,17 @@ img {
   display: flex;
 }
 
-/* nav-site*/
-.nav-site {
+/* site-nav*/
+.site-nav {
   display: flex;
   align-items: center;
 }
 
-.nav-site .unit + .unit {
+.site-nav .unit + .unit {
   margin-left: 50px;
 }
 
-.nav-site .link {
+.site-nav .link {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -154,9 +154,9 @@ img {
   transition: color var(--animation-dur) var(--animation-type);
 }
 
-.nav-site .link:hover,
-.nav-site .link:focus,
-.nav-site .link.current {
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
